@@ -1,0 +1,31 @@
+<configuration>
+	<result>ok</result>	
+   <broker-guid>4d35a84a-ffe2-484b-92f2-e718541703e8</broker-guid>
+   <client-configuration>
+	   <params>
+		   <param>
+			   <name>clientHideDomainList</name>
+			   <values>
+				   <value>false</value>
+			   </values>
+		   </param>
+		   <param>
+			   <name>alwaysSendRdsLicense</name>
+			   <values>
+				   <value>true</value>
+			   </values>
+		   </param>
+	   </params>
+   </client-configuration>
+   <authentication>
+	   <screen>
+		   <name>windows-password</name>
+		   <params>
+            <param>
+               <name>domain</name>
+               <values><value>*DefaultDomain*</value></values>
+            </param>
+		   </params>
+	   </screen>
+   </authentication>
+</configuration>
