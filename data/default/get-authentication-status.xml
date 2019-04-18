@@ -1,0 +1,5 @@
+<authentication-status>
+	<result>ok</result>
+   <sso>unlocked</sso>
+   <time-to-sso-lock>-1</time-to-sso-lock>
+</authentication-status>

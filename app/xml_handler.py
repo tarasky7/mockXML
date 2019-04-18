@@ -25,3 +25,32 @@ def set_locale(id, key, req):
 
 def get_configuration(id, key, req):
    return common_handler(id, key, req)
+
+def do_submit_authentication(id, key, req):
+   return common_handler(id, key, req)
+
+def add_client_info(id, key, req):
+   return common_handler(id, key, req)
+
+def get_application_session_connection(id, key, req):
+   return common_handler(id, key, req)
+def get_launch_items(id, key, req):
+   return common_handler(id, key, req)
+
+def get_tunnel_connection(id, key, req):
+   return common_handler(id, key, req)
+
+def get_user_global_preferences(id, key, req):
+   return common_handler(id, key, req)
+
+def set_last_user_activity(id, key, req):
+   return common_handler(id, key, req)
+
+def set_user_global_preferences(id, key, req):
+   return common_handler(id, key, req)
+
+def get_authentication_status(id, key, req):
+   return common_handler(id, key, req)
+
+def set_user_global_preferences(id, key, req):
+   return common_handler(id, key, req)

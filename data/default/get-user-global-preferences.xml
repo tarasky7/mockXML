@@ -1,0 +1,14 @@
+	<user-global-preferences>
+		<result>ok</result>
+		<user-preferences>
+			<preference name="enableHighResolution">true</preference>
+			<preference name="enableClipboardPopupGuide">false</preference>
+			<preference name="enableWindowsKey">false</preference>
+			<preference name="enableMP4">false</preference>
+			<preference name="enableMultiMonitor">true</preference>
+			<preference name="timezoneSync"></preference>
+			<preference name="enableFolderSharing">false</preference>
+			<preference name="useMacOSXKeyMappings"></preference>
+			<preference name="enableFitToViewer">true</preference>
+		</user-preferences>
+	</user-global-preferences>

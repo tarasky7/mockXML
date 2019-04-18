@@ -1,0 +1,4656 @@
+	<launch-items>	
+		<result>ok</result>
+<desktops>
+	<desktop>
+		<id>cn=win2019,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>win2019</name>
+		<type>free-unmanaged-wts</type>
+		<state>connected</state>
+		<session-id>PCOIPLAB\jinxingh(cn=s-1-5-21-1362534460-4284534576-2330898158-1103,cn=foreignsecurityprincipals,dc=vdi,dc=vmware,dc=int)/5@cn=8ff1d29e-eb1f-4ca1-a117-0e41fcd922a2,ou=servers,dc=vdi,dc=vmware,dc=int.cn=rds2019,ou=server groups,dc=vdi,dc=vmware,dc=int:BLAST:0:DESKTOP</session-id>
+		<in-maintenance-mode>false</in-maintenance-mode>
+		<reset-allowed>false</reset-allowed>
+		<reset-allowed-on-session>false</reset-allowed-on-session>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		<user-preferences>
+			<preference name="screenSize">MultiMonitor</preference>
+			<preference name="protocol">BLAST</preference>
+		</user-preferences>
+		
+		
+	</desktop>
+</desktops>
+
+
+<applications>
+	<application>
+		<id>cn=access_2016,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Access 2016</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>16.0.4266.1001</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Access 2016.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/8b6394e1da963594a23fc6aa9569661b.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/cc6611977fa52c2ae81b7032fe7a0e77.png</path>
+				<width>96</width>
+				<height>96</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/bd0bc28b333c68628e4b6cbeb4ce2253.png</path>
+				<width>80</width>
+				<height>80</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/4f1eedccdb614bbf8fd29ead0ce062e7.png</path>
+				<width>72</width>
+				<height>72</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/e5c3cfdf509c7f0914c6684407f8b66a.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/7fe02bbe025020f06093afe0c50fe4bc.png</path>
+				<width>60</width>
+				<height>60</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/4501d861bb26d2002f2bcadd79467e70.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/7fccd229d3d240c37942b4770ba520ab.png</path>
+				<width>40</width>
+				<height>40</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/eb7ae78fa3b296f27e0f9eb31582f79d.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/7cfbea409844a9636542c3760fde8928.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/dc6d1fc24240d73d0eae2994a90ba8c9.png</path>
+				<width>20</width>
+				<height>20</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/69ef1b6c1927fdeab43bbb6df971f16d.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+			<file-extension>
+				<name>.mdw</name>
+				<display-name>Microsoft Access Workgroup Information</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.accde</name>
+				<display-name>Microsoft Access ACCDE Database</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.accda</name>
+				<display-name>Microsoft Access Add-in</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.accdb</name>
+				<display-name>Microsoft Access Database</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mde</name>
+				<display-name>Microsoft Access MDE Database</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.accdc</name>
+				<display-name>Microsoft Access Signed Package</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mdt</name>
+				<display-name>Microsoft Access Add-in Data</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mdn</name>
+				<display-name>Microsoft Access Blank Database Template</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mdbhtml</name>
+				<display-name>Microsoft Access HTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.accdu</name>
+				<display-name>Microsoft Access Add-in Data</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mav</name>
+				<display-name>Microsoft Access View Shortcut</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.ade</name>
+				<display-name>Microsoft Access Project Extension</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.accdw</name>
+				<display-name>Microsoft Access Web Application</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.maw</name>
+				<display-name>Microsoft Access Data Access Page Shortcut</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mat</name>
+				<display-name>Microsoft Access Table Shortcut</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mau</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.accdr</name>
+				<display-name>Microsoft Access Runtime Application</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mar</name>
+				<display-name>Microsoft Access Report Shortcut</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mas</name>
+				<display-name>Microsoft Access Stored Procedure Shortcut</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.accdt</name>
+				<display-name>Microsoft Access Template</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.adp</name>
+				<display-name>Microsoft Access Project</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mda</name>
+				<display-name>Microsoft Access Add-in</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mdb</name>
+				<display-name>Microsoft Access Database</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.adn</name>
+				<display-name>Microsoft Access Blank Project Template</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.maf</name>
+				<display-name>Microsoft Access Form Shortcut</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mag</name>
+				<display-name>Microsoft Access Diagram Shortcut</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mad</name>
+				<display-name>Microsoft Access Module Shortcut</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.wizhtml</name>
+				<display-name>Microsoft Access HTML Template</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.maq</name>
+				<display-name>Microsoft Access Query Shortcut</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mam</name>
+				<display-name>Microsoft Access Macro Shortcut</display-name>
+			</file-extension>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=calculator,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Calculator</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Calculator.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/4e229a68ae7585f733b0567f5638c9e4.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/cb491d8efdbc3f04e736dca80f832c82.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/cebb3b66e4344fa8b3b470b3b1109bbb.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/71c0a7d56108007b6b118d15067e0297.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/6d16a9e1471b16cfc4ac09a6c7679dbf.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/57e045ededdda95e2a69c1aecf15ef37.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>calculator</name>
+			   <display-name></display-name>
+			 </other-file-type>
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=calculator-1,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Calculator</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Calculator.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/4e229a68ae7585f733b0567f5638c9e4.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/cb491d8efdbc3f04e736dca80f832c82.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/cebb3b66e4344fa8b3b470b3b1109bbb.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/71c0a7d56108007b6b118d15067e0297.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/6d16a9e1471b16cfc4ac09a6c7679dbf.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/57e045ededdda95e2a69c1aecf15ef37.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>calculator</name>
+			   <display-name></display-name>
+			 </other-file-type>
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=character_map,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Character Map</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>5.2.3668.0</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\System Tools\Character Map.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/2654c46a59ad6e25153ccd44c53ca1f4.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/5e67e61ca351be50e6762377c630e097.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/7268ff7b6830c36b22eadc4ef7a3c08a.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/ebb841b6b15dfc167f3ade9853ee4762.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/543998f6e02b632316ac942d2a93d0e0.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=command_prompt,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Command Prompt</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools\Command Prompt.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/31e57ea6e5727933ea4e327f6cb4944d.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/b3c1959254a285cc45596124c539d8b2.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/52b2af85310163002211101e02012da2.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/dda0fcaf27678c57b6ff96ae91b903f5.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=database_compare_2016,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Database Compare 2016</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>16.0.4266.1001</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2016 Tools\Database Compare 2016.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/7e3e2432b1849b24533eaf1ad7ba91d8.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/fb2ffdd5b81fdd4312b913ec15f9afcd.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/8911293b573c20c85768353466ace539.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/56762ea286afe5fb0afd92d59bf9b937.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=disk_cleanup,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Disk Cleanup</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\Disk Cleanup.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/3c8dd81785ab542ad623c8c551e872e3.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/4fcdc4e207d295c7ebd08b4258e14951.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/328147edd9d8e1cb6915fe8188d9db43.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/be31880ef1b75cb46342d7b704733028.png</path>
+				<width>40</width>
+				<height>40</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/b60d76958f9e1b26da2a0c95347683f1.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/5606f1673a7e2886954a4876219a53be.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/f14c14e5742c1c4a8081fdc173f79d63.png</path>
+				<width>20</width>
+				<height>20</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/a612ea342e916d14c01002076b018e88.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=excel_2016,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Excel 2016</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>16.0.4266.1001</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Excel 2016.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/7d96e7598f3b101bc36f657dd61dea25.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/7a10791e1f93741090dc8e6c59e91f5b.png</path>
+				<width>96</width>
+				<height>96</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/d3900e298c93aef9edac060e17cc530b.png</path>
+				<width>80</width>
+				<height>80</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/f0dd6f0f6d86dc65ac363f6389142ffa.png</path>
+				<width>72</width>
+				<height>72</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/ae4ef857f13eeba28df19bc7a612639f.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/6a6c7c48f3987121f183b322c1267ff5.png</path>
+				<width>60</width>
+				<height>60</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/b62668edb1ccf31c1e1de0f80299b62d.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/b1361f4e48e0fce1723dc1063f66f0a3.png</path>
+				<width>40</width>
+				<height>40</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/544c65dc854e44cc84657c92e6f06583.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/91060b33028b0294e1e7ed81667df520.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/d6a2f7a9f12cddfd36215a6ac09a14a2.png</path>
+				<width>20</width>
+				<height>20</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/a740b1cd4a25164ff15bc816e7d2dd15.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+			<file-extension>
+				<name>.xlw</name>
+				<display-name>Microsoft Excel Workspace</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xlt</name>
+				<display-name>Microsoft Excel Template</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xltx</name>
+				<display-name>Microsoft Excel Template</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.ods</name>
+				<display-name>OpenDocument Spreadsheet</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xlsx</name>
+				<display-name>Microsoft Excel Worksheet</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xls</name>
+				<display-name>Microsoft Excel 97-2003 Worksheet</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.dqy</name>
+				<display-name>Microsoft Excel ODBC Query File</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xla</name>
+				<display-name>Microsoft Excel Add-In</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xlshtml</name>
+				<display-name>Microsoft Excel HTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xlam</name>
+				<display-name>Microsoft Excel Add-In</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.csv</name>
+				<display-name>Microsoft Excel Comma Separated Values File</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xlsb</name>
+				<display-name>Microsoft Excel Binary Worksheet</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.slk</name>
+				<display-name>Microsoft Excel SLK Data Import Format</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.iqy</name>
+				<display-name>Microsoft Excel Web Query File</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.odc</name>
+				<display-name>Microsoft Office Data Connection</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xltm</name>
+				<display-name>Microsoft Excel Macro-Enabled Template</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xlsm</name>
+				<display-name>Microsoft Excel Macro-Enabled Worksheet</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xll</name>
+				<display-name>Microsoft Excel XLL Add-In</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xlthtml</name>
+				<display-name>Microsoft Excel HTML Template</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xlm</name>
+				<display-name>Microsoft Excel 4.0 Macro</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xlk</name>
+				<display-name>Microsoft Excel Backup File</display-name>
+			</file-extension>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=google_chrome,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Google Chrome</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>72.0.3626.119</version>
+		<publisher>Google Inc.</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/2df1cb1788261678784ecc89b40d526b.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/0fc1780b1f785f03ede905e19e789cde.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/46e97b40d38bed0a5f7d8f0cb4748e34.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/bfe1af90eb3a4788230c815ee643ff16.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+			<file-extension>
+				<name>.xht</name>
+				<display-name>Chrome HTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.svg</name>
+				<display-name>Chrome HTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.html</name>
+				<display-name>Chrome HTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.pdf</name>
+				<display-name>Chrome HTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.shtml</name>
+				<display-name>Chrome HTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.webp</name>
+				<display-name>Chrome HTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.htm</name>
+				<display-name>Chrome HTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xhtml</name>
+				<display-name>Chrome HTML Document</display-name>
+			</file-extension>
+		   
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>webcal</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>urn</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>tel</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>smsto</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>sms</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>nntp</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>news</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>mms</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>mailto</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>irc</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>https</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>http</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>ftp</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>chromehtml</name>
+			   <display-name></display-name>
+			 </other-file-type>
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=google_chrome-1,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Google Chrome</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>73.0.3683.86</version>
+		<publisher>Google Inc.</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/2df1cb1788261678784ecc89b40d526b.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/0fc1780b1f785f03ede905e19e789cde.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/46e97b40d38bed0a5f7d8f0cb4748e34.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/bfe1af90eb3a4788230c815ee643ff16.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+			<file-extension>
+				<name>.xht</name>
+				<display-name>Chrome HTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.svg</name>
+				<display-name>Chrome HTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.html</name>
+				<display-name>Chrome HTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.pdf</name>
+				<display-name>Chrome HTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.shtml</name>
+				<display-name>Chrome HTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.webp</name>
+				<display-name>Chrome HTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.htm</name>
+				<display-name>Chrome HTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xhtml</name>
+				<display-name>Chrome HTML Document</display-name>
+			</file-extension>
+		   
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>webcal</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>urn</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>tel</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>smsto</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>sms</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>nntp</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>news</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>mms</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>mailto</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>irc</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>https</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>http</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>ftp</name>
+			   <display-name>Chrome HTML Document</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>chromehtml</name>
+			   <display-name></display-name>
+			 </other-file-type>
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=iexplore-1,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Internet Explorer</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>11.00.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\Program Files (x86)\Internet Explorer\iexplore.exe</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/3994b4f746a2db0f2f35b21cc513e68f.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/7f89df106b88b40e378028a57193c01f.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/99fc3289a39fa224c0d11149f488671b.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/4ef64669eebaa412d982be8c77016688.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/5d4dd8078453d644b054ee1584fce42e.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=iexplore,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Internet Explorer</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>11.00.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\Program Files\Internet Explorer\iexplore.exe</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/3994b4f746a2db0f2f35b21cc513e68f.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/7f89df106b88b40e378028a57193c01f.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/99fc3289a39fa224c0d11149f488671b.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/4ef64669eebaa412d982be8c77016688.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/5d4dd8078453d644b054ee1584fce42e.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+			<file-extension>
+				<name>.xevgenxml</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.vsdx</name>
+				<display-name>Microsoft Visio Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xht</name>
+				<display-name>XHTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.gif</name>
+				<display-name>GIF image</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.website</name>
+				<display-name>Pinned Site Shortcut</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mhtml</name>
+				<display-name>MHTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.vdx</name>
+				<display-name>Microsoft Visio Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.vsdm</name>
+				<display-name>Microsoft Visio Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.vdw</name>
+				<display-name>Microsoft Visio Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.vsd</name>
+				<display-name>Microsoft Visio Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.vstx</name>
+				<display-name>Microsoft Visio Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.vtx</name>
+				<display-name>Microsoft Visio Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.vstm</name>
+				<display-name>Microsoft Visio Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mht</name>
+				<display-name>MHTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.svg</name>
+				<display-name>SVG Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.html</name>
+				<display-name>HTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.partial</name>
+				<display-name>Partial Download</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.htm</name>
+				<display-name>HTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.vssx</name>
+				<display-name>Microsoft Visio Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xsl</name>
+				<display-name>XSL Stylesheet</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.vssm</name>
+				<display-name>Microsoft Visio Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.vsx</name>
+				<display-name>Microsoft Visio Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.vss</name>
+				<display-name>Microsoft Visio Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.vst</name>
+				<display-name>Microsoft Visio Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xhtml</name>
+				<display-name>XHTML Document</display-name>
+			</file-extension>
+		   
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>res</name>
+			   <display-name>URL:HyperText Transfer Protocol</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>mk</name>
+			   <display-name>URL:HyperText Transfer Protocol</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>ie.http</name>
+			   <display-name></display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>https</name>
+			   <display-name>URL:HyperText Transfer Protocol with Privacy</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>http</name>
+			   <display-name>URL:HyperText Transfer Protocol</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>ftp</name>
+			   <display-name>URL:File Transfer Protocol</display-name>
+			 </other-file-type>
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=math_input_panel,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Math Input Panel</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Math Input Panel.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/a4b5a4fbd88ca64c2bbaf20513e0ed72.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/41807b463e68ea71b2c63f139e820af8.png</path>
+				<width>128</width>
+				<height>128</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/45a406e6b71ca942707270881b6d8be7.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/732d4e48aeda368d259276ac9a97a6dc.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/3b5539be7e27d290535dd134a9ef494b.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/2c0b69f8dd8af274b9c5d116fe67548e.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/5ec2011c84b6dba4e75043dd9e7296c6.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=microsoft_azure_services,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Microsoft Azure Services</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\Microsoft Azure services.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/a92401aaacd54fd06c6c63bc23f5e451.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/ecbed20f45ad118b1df9dfe613ead6f6.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/823eb874230f0954831f7112149cbbc5.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/ad65b6df3306dc7c51a6f4a1e5889306.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/8c33e1ba6b495e4c8f4ceaa129c16831.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+			<file-extension>
+				<name>.cab</name>
+				<display-name>Cabinet File</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.osdx</name>
+				<display-name>Search connector description</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.zip</name>
+				<display-name>Compressed (zipped) Folder</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.scf</name>
+				<display-name>File Explorer Command</display-name>
+			</file-extension>
+		   
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>search</name>
+			   <display-name>Windows Search protocol</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>Explorer.ZipSelection</name>
+			   <display-name>File Explorer ‘Zip’ button</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>Explorer.EraseDisc</name>
+			   <display-name>File Explorer ‘Erase this disc’ button</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>Explorer.BurnSelection</name>
+			   <display-name>File Explorer ‘Burn to disc’ button</display-name>
+			 </other-file-type>
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=notepad-1,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Notepad</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories\Notepad.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/b42380bb56b18afebb01bece64938cf7.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/89de49cb289c8cbd3668844feffc6826.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/9d755d6fef83fbbd703e656ab081f22d.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/bf63ed77e7d929b96e27d8bbd9591b4f.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/13a5d8a8410445b51edf45b6eee2cd8d.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+			<file-extension>
+				<name>.sct</name>
+				<display-name>Windows Script Component</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.log</name>
+				<display-name>Text Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.ini</name>
+				<display-name>Configuration settings</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.psd1</name>
+				<display-name>Windows PowerShell Data File</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.scp</name>
+				<display-name>Text Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.htm</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.inf</name>
+				<display-name>Setup Information</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.dic</name>
+				<display-name>Text Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.psm1</name>
+				<display-name>Windows PowerShell Script Module</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.compositefont</name>
+				<display-name>Composite Font File</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.wsc</name>
+				<display-name>Windows Script Component</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.exc</name>
+				<display-name>Text Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.txt</name>
+				<display-name>Text Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.ps1</name>
+				<display-name>Windows PowerShell Script</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.wtx</name>
+				<display-name>Text Document</display-name>
+			</file-extension>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=notepad,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Notepad++</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>7.6.3</version>
+		<publisher>Don HO don.h@free.fr</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Notepad++.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/77ec95dabd8c37085aa0cd2f78d63837.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/4577c8ae9a2e92041afa1173e9ef128b.png</path>
+				<width>128</width>
+				<height>128</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/6ac69280d44cd7aa3eb61399ff42b1c0.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/dca86e55efd7f729c44100a65fe66ec9.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/c75968be650d82b57ef7717d84f64713.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/21ec783ee6ea7e7157ea6b0387c31657.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=odbc_data_sources_32-bit,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>ODBC Data Sources (32-bit)</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/b17e586b2ba0a1b635cc8c0e7592a5e3.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/bc079b79da7678a9ea3a4410a3feea9d.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/37e21a4058f2426d090ea156ea524bb3.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/26118d9cffe795bb0b41373ad73deb54.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=odbc_data_sources_64-bit,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>ODBC Data Sources (64-bit)</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (64-bit).lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/b17e586b2ba0a1b635cc8c0e7592a5e3.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/bc079b79da7678a9ea3a4410a3feea9d.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/37e21a4058f2426d090ea156ea524bb3.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/26118d9cffe795bb0b41373ad73deb54.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=office_2016_language_preferences,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Office 2016 Language Preferences</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>16.0.4266.1001</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2016 Tools\Office 2016 Language Preferences.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/47e44fc47aa98ded01c3122f013ee4c9.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/e3409319cc2820d454bce3e389d8c3b2.png</path>
+				<width>40</width>
+				<height>40</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/c28383117da71378358818a4027553bc.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/e98c72e48e645db01a3863b518d8c349.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/8540980943f929fbb673257b687d5915.png</path>
+				<width>20</width>
+				<height>20</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/24a3e2ad94a0b7090064962052174522.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=office_2016_upload_center,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Office 2016 Upload Center</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>16.0.4266.1001</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2016 Tools\Office 2016 Upload Center.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/7edaa3257fafde37f2cb92de8f10f19e.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/33dba75497d6b27be3fa8818d1169435.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/60c891cf16f1a4e0cad77f9aa82cc76f.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/89c34708ede770a3e437f056bd886797.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=onenote_2016,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>OneNote 2016</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>16.0.4266.1001</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\OneNote 2016.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/d5b07ba184adabe20ad375e7656c53ac.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/60413945d4e6c82bad4dc58a0cb45384.png</path>
+				<width>96</width>
+				<height>96</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/ae3af1663860dba9cf1030c1106f7650.png</path>
+				<width>80</width>
+				<height>80</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/6cf0a3fab90703acfd252e55d064b8ac.png</path>
+				<width>72</width>
+				<height>72</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/eda8d92501ef0689d44f9f3d299a02e6.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/a2d65e2296214989c56214a5d6b5afa2.png</path>
+				<width>60</width>
+				<height>60</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/31c417aca2dcc330ea217578ce69c0e9.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/84452ae57fc937c388b88e54aee3b2b6.png</path>
+				<width>40</width>
+				<height>40</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/e665f928af23b6dfa03967e6f72c7d08.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/933b21f65ef080f60b9b087c62525963.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/43b864acb76389acad7b1186dab8de5a.png</path>
+				<width>20</width>
+				<height>20</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/d07b08ab0d019903049aeda452ff1e16.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+			<file-extension>
+				<name>.onepkg</name>
+				<display-name>Microsoft OneNote Single File Package</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.onetoc2</name>
+				<display-name>Microsoft OneNote Table Of Contents</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.onetoc</name>
+				<display-name>Microsoft OneNote 2003 Table Of Contents</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.one</name>
+				<display-name>Microsoft OneNote Section</display-name>
+			</file-extension>
+		   
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>onenotedesktop</name>
+			   <display-name>URL:OneNote Protocol</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>onenotedesktop.url.16</name>
+			   <display-name></display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>onenote</name>
+			   <display-name>URL:OneNote Protocol</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>onenote.url.16</name>
+			   <display-name></display-name>
+			 </other-file-type>
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=outlook_2016,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Outlook 2016</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>16.0.4266.1001</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Outlook 2016.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/9f88451e85c736e983cc4f093e51f55a.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/3c78a2b5d4772d0944b52c5c97ac5cba.png</path>
+				<width>96</width>
+				<height>96</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/d547e4714ea5356a0a72e1d745fdbdc9.png</path>
+				<width>80</width>
+				<height>80</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/1f97a8aa52434698dfb214c0a5e1ecf1.png</path>
+				<width>72</width>
+				<height>72</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/289e1ed06fcb2552b5ea326613f7cb59.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/26402e2b29f824653ef47bc4ee85c3cf.png</path>
+				<width>60</width>
+				<height>60</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/73eb9b652266ad8dca11f82bafae50d1.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/7090968728a59309fe27c0ef8be86fe7.png</path>
+				<width>40</width>
+				<height>40</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/5ff5a97325fc1c629188f2244165849b.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/9d245758b4dc43f612d7121bd6b14959.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/066025c25d6fcf7d5736c762b38c8e8a.png</path>
+				<width>20</width>
+				<height>20</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/f129e581e1cba01b7d3dbba840ecf0b1.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+			<file-extension>
+				<name>.eml</name>
+				<display-name>E-mail Message</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.hol</name>
+				<display-name>Outlook Holidays</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.pst</name>
+				<display-name>Outlook Data File</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.msg</name>
+				<display-name>Outlook Item</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.oft</name>
+				<display-name>Outlook Item Template</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.vcf</name>
+				<display-name>vCalendar File</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.ics</name>
+				<display-name>iCalendar File</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.vcs</name>
+				<display-name>vCard File</display-name>
+			</file-extension>
+		   
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>webcals</name>
+			   <display-name>URL:Outlook Add Internet Calendar</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>webcal</name>
+			   <display-name>URL:Outlook Add Internet Calendar</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>stssync</name>
+			   <display-name>URL:Outlook Add Sharepoint Folder</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>outlook.url.webcal.15</name>
+			   <display-name></display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>outlook.url.stssync.15</name>
+			   <display-name></display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>outlook.url.mailto.15</name>
+			   <display-name></display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>outlook.url.feed.15</name>
+			   <display-name></display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>mailto</name>
+			   <display-name>URL:MailTo Protocol</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>feeds</name>
+			   <display-name>URL:Outlook Add RSS Feed</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>feed</name>
+			   <display-name>URL:Outlook Add RSS Feed</display-name>
+			 </other-file-type>
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=paint,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Paint</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Paint.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/219906c77f4e7c50df32e88acef2783a.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/ace348ec569755512a5a714f3d2d62b7.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/aacb62617fa81f47885ce0f6a0556e07.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/0e0d18b77b2d09e8257c3b2b33240bbb.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/49f2af524e472e130dba55fc57052eda.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/d8cea5cb0509af38b46b894c9296c6e7.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+			<file-extension>
+				<name>.gif</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.bmp</name>
+				<display-name>Bitmap image</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.jpg</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.emf</name>
+				<display-name>EMF File</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.jpe</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.rle</name>
+				<display-name>RLE File</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.jpeg</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.png</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.ico</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.heif</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.wmf</name>
+				<display-name>WMF File</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.webp</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.tif</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.dib</name>
+				<display-name>Bitmap image</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.heic</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.tiff</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.jfif</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.avci</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=paint-1,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Paint</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Paint.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/219906c77f4e7c50df32e88acef2783a.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/ace348ec569755512a5a714f3d2d62b7.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/aacb62617fa81f47885ce0f6a0556e07.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/0e0d18b77b2d09e8257c3b2b33240bbb.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/49f2af524e472e130dba55fc57052eda.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/d8cea5cb0509af38b46b894c9296c6e7.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+			<file-extension>
+				<name>.gif</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.bmp</name>
+				<display-name>Bitmap image</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.jpg</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.emf</name>
+				<display-name>EMF File</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.jpe</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.rle</name>
+				<display-name>RLE File</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.jpeg</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.png</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.ico</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.heif</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.wmf</name>
+				<display-name>WMF File</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.webp</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.tif</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.dib</name>
+				<display-name>Bitmap image</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.heic</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.tiff</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.jfif</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.avci</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=performance_monitor,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Performance Monitor</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version></version>
+		<publisher></publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\Performance Monitor.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/0a577e9230a00763f598bcc7ba9a1a75.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/f3f920253d2e955ec78d662e8e0ab628.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/2ff83a381a7dcd537d3256c4e5be75e6.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/a85802fc2e502c0bcdaeeb62142c8087.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/d993f224909d4b720f93d196a3bcc23b.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=powerpoint_2016,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>PowerPoint 2016</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>16.0.4266.1001</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PowerPoint 2016.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/f3967516ef7d6c6ecef746e0aa488fbf.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/9ee760394d49fec7f4a499759e6f895d.png</path>
+				<width>96</width>
+				<height>96</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/a6e0765d2e58bb584189f6b4cda3097d.png</path>
+				<width>80</width>
+				<height>80</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/19b7f8546ef2ea6fe624b0e4c2bacf7b.png</path>
+				<width>72</width>
+				<height>72</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/9761b93e64a95b5d8df2e2086372a4e3.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/f83c1b455f66c8212c2c94d2380849f5.png</path>
+				<width>60</width>
+				<height>60</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/470e110a36f50805a8115e0c045d00e7.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/948aacf0b649794b02a665fe73ae83c4.png</path>
+				<width>40</width>
+				<height>40</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/0a8a52ff3f10283297fdffc946ec63e5.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/03c8eaa5ddb255735aa1e7da2629626a.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/4f8fe404d36f5f2c175b4e4e253a0cb0.png</path>
+				<width>20</width>
+				<height>20</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/e5baba756dfdeb7fc5e18647ebe606a2.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+			<file-extension>
+				<name>.sldx</name>
+				<display-name>Microsoft PowerPoint Slide</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.ppa</name>
+				<display-name>Microsoft PowerPoint 97-2003 Addin</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.ppam</name>
+				<display-name>Microsoft PowerPoint Addin</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.potx</name>
+				<display-name>Microsoft PowerPoint Template</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.sldm</name>
+				<display-name>Microsoft PowerPoint Macro-Enabled Slide</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.pptx</name>
+				<display-name>Microsoft PowerPoint Presentation</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.pptxml</name>
+				<display-name>Microsoft PowerPoint XML Presentation</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.ppsx</name>
+				<display-name>Microsoft PowerPoint Slide Show</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.ppt</name>
+				<display-name>Microsoft PowerPoint 97-2003 Presentation</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.pot</name>
+				<display-name>Microsoft PowerPoint 97-2003 Template</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.thmx</name>
+				<display-name>Microsoft Office Theme</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.pwz</name>
+				<display-name>Microsoft PowerPoint Wizard</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.ppthtml</name>
+				<display-name>Microsoft PowerPoint HTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.pps</name>
+				<display-name>Microsoft PowerPoint 97-2003 Slide Show</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.ppsm</name>
+				<display-name>Microsoft PowerPoint Macro-Enabled Slide Show</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.potm</name>
+				<display-name>Microsoft PowerPoint Macro-Enabled Design Template</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.pptm</name>
+				<display-name>Microsoft PowerPoint Macro-Enabled Presentation</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.odp</name>
+				<display-name>OpenDocument Presentation</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.pothtml</name>
+				<display-name>Microsoft PowerPoint HTML Template</display-name>
+			</file-extension>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=print_management,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Print Management</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version></version>
+		<publisher></publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\Print Management.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/d90b965e604af7ac1370477da512ac19.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/f005e614e67b063c2df83eb867f39784.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/eb77356f103d813acdd58c8c2d574a68.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=publisher_2016,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Publisher 2016</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>16.0.4266.1001</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Publisher 2016.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/bd7b46f34e5c098349f9c803139b5782.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/381412498c9d995d3df62ab46fcffe87.png</path>
+				<width>96</width>
+				<height>96</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/c31960eb20985c27f7c6bba72c478044.png</path>
+				<width>80</width>
+				<height>80</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/d505ab9428e9905dd54f78417d4195e4.png</path>
+				<width>72</width>
+				<height>72</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/fd72f05c30a1e3c18d01c49556567658.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/3d618b08f17890c276e846f2bdc19e0f.png</path>
+				<width>60</width>
+				<height>60</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/74d4f1c1879df407d9ff4b787b938edc.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/60cbb3e73a1df0795f8a61231d4165e4.png</path>
+				<width>40</width>
+				<height>40</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/c785cc883dd6e3253c624d8169a3095a.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/ffa6a121c5dbeaba4626b65f80fe3225.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/f5e80b202a0666234bb0449a547ce0ca.png</path>
+				<width>20</width>
+				<height>20</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/ab95bee26d9168a6178e91e2cc4e71e7.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+			<file-extension>
+				<name>.pub</name>
+				<display-name>Microsoft Publisher Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.ols</name>
+				<display-name>Office List Shortcut</display-name>
+			</file-extension>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=recoverydrive,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Recovery Drive</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\RecoveryDrive.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/86e6184b64647a03401b25fac57ba90e.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/297e9456df2b2fcb1bf8bf7dbceba9fb.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/6501796759e2aa48d67476f8678076d7.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/1f38c490753d268f71e5b3f2a60e9e04.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/afe9d7f98917230358208adecc59959d.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=registry_editor,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Registry Editor</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\Registry Editor.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/1bb7abf29a482b67827388902256bc8e.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/5a92ae3eed30197719c6aa90fa59590f.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/627aa484373ae2da410b6a770de52023.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/dfb24188800abb8c492ba5d779cb3f30.png</path>
+				<width>40</width>
+				<height>40</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/f33cd6a3a7fed653ad28d78306f1b260.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/e02b44217fd5b07b1da262285c181ea0.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/7c7ebc7a1bd91308c7fb1e8ebe95e8d7.png</path>
+				<width>20</width>
+				<height>20</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/44f8609da332b74eac90a799255a364a.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=remote_desktop_connection,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Remote Desktop Connection</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Remote Desktop Connection.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/38f77a1015b0083ca35f1b9e8593a915.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/6124217255442316e5060202eab4b31e.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/2a1ff2ced9fa54435d05005263c05287.png</path>
+				<width>20</width>
+				<height>20</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/e8cbac2d5886b65b0e5d5cb0ae4097fb.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/aa157c510168c0d49f9a38d50908ac8a.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/0913956ec86538a3e036ecce4c721914.png</path>
+				<width>40</width>
+				<height>40</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/be539be21fa864117987b8597f4994d5.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/03f09ce7a43d7d6a96c14ce69eeaf4aa.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/4fe57a44f82a0df622adc718ff631acc.png</path>
+				<width>128</width>
+				<height>128</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+			<file-extension>
+				<name>.rdp</name>
+				<display-name>Remote Desktop Connection</display-name>
+			</file-extension>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=immersive_control_panel,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Settings</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Immersive Control Panel.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/574ee21fb8bcd3336a7bdd088c76a569.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/015751259edbf7e90fb1512d17cd079e.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/660060bb3080a63c5ba764d819c1e01d.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/2657766e75a3d4fc35d3ce2458b88202.png</path>
+				<width>40</width>
+				<height>40</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/64f04a84b0524ecd7e46f0ef59de11ec.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/fb88e099687ffb95eee1c3bf669e3e20.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/b3888d984f0767ec89e370d05f34b4cf.png</path>
+				<width>20</width>
+				<height>20</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/6cb6edc8c7a51fab0c58182027f644fd.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=skype_for_business_2016,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Skype for Business 2016</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>16.0.4266.1001</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Skype for Business 2016.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/f23f3efd8517b24413361c35030c3b81.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/24d98e8b4e64045c074a0b232091948b.png</path>
+				<width>96</width>
+				<height>96</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/672c670dfb38cdc6ca29c9ee16a0213b.png</path>
+				<width>80</width>
+				<height>80</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/4802ddec5e55babcf5d44f181d5a4d32.png</path>
+				<width>72</width>
+				<height>72</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/289cd9cb7044b7c00d956c155cc570ac.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/46940a982c3e8a1324793493ed5705cf.png</path>
+				<width>60</width>
+				<height>60</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/bb89ed4c3453fae5ba1c032102bbb10b.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/ef4c8ec028d2ae348b92f5e56072688d.png</path>
+				<width>40</width>
+				<height>40</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/ea2e6eddc40272bbaf52fd2ff4f589a4.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/e202c693854126d9d11f4be53a91f9e7.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/8d9ded5ea62fd91c6946b49136b0c097.png</path>
+				<width>20</width>
+				<height>20</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/33a885805b072f69dec9451fc49b556b.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>tel</name>
+			   <display-name>Skype for Business Tel Protocol</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>skypecast15</name>
+			   <display-name></display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>lync15classic</name>
+			   <display-name>Skype for Business 15 Meeting</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>lync15</name>
+			   <display-name>Skype for Business 15 Meeting</display-name>
+			 </other-file-type>
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=snipping_tool,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Snipping Tool</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Snipping Tool.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/c262375c64f68555295acb2f89592d9a.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/d9f129e86b6fc7709d2ceb853be47f76.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/435b8298a2d02a1dab90200ef01e6894.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/7c68d0dc5e4d0ec4351e0a07a582735a.png</path>
+				<width>40</width>
+				<height>40</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/3befbafca2566a2a8c3f580c6447aa57.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/9d7e0a02cab391c315a914dee35b32de.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/4a6400ffc9960150b5c43028e4b2e7bb.png</path>
+				<width>20</width>
+				<height>20</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/9bce43b4405a06a372b350d3dbac3894.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=spreadsheet_compare_2016,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Spreadsheet Compare 2016</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>16.0.4266.1001</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2016 Tools\Spreadsheet Compare 2016.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/1c726d469472f6f08919d4ecf605475a.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/4a7ab9d993e809a14a9d5091bf1e1036.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/4dcf9588f5fd1f0cd01bda43fc44c061.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/be56e351e55f75fd0ffa007f662dce14.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=steps_recorder,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Steps Recorder</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Steps Recorder.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/bbdad59f6da96f07cfb9e834b286997d.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/1c0f9d77b81035a4c1477c3ea7c08a53.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/740bfc2bce8f5fddd4d5ad5ceac4d4b4.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/41a2f9e5dcbfae649f4b90536076311f.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=task_manager,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Task Manager</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\System Tools\Task Manager.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/f8d034fcefb21426d7860da597c5ca21.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/c88993686edd81ba3650eb36aa05f1c4.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/8f9cb5311c57f981b0661964d9b70c91.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/2a0a72e18b185d57f8427cb3c55678b8.png</path>
+				<width>40</width>
+				<height>40</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/982a4c69497de504c38302c2ec3865d9.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/48b137f6470d9f89e21432612e67dcd6.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/ac5539f27f570d341b6f8937888bf306.png</path>
+				<width>20</width>
+				<height>20</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/585e262374779b95df703647ff414ad8.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=telemetry_dashboard_for_office_2016,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Telemetry Dashboard for Office 2016</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>16.0.4266.1001</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2016 Tools\Telemetry Dashboard for Office 2016.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/4f6bc0db49f6bc8f8244b846cc0c2e9b.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/074de2b36ec9bc479eda6a9b98b04b40.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/9f447bf2d9af1aaa9cbfc8d73537a3e9.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/7d742292d6d798dc8cd36d5fa2f1b15e.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=telemetry_log_for_office_2016,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Telemetry Log for Office 2016 </name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>16.0.4266.1001</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2016 Tools\Telemetry Log for Office 2016.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/e9f9f45a034e37525e8b8e4a3e73cc01.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/9a1231bac32e5c30433d5a79a841311c.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/f2417db84ca1b93f92d61d65f74910e7.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/92d50297c3df2c1e55a8ee1a70d2efc5.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=administrative_tools,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Windows Administrative Tools</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools\Administrative Tools.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/975fb86c9765fd4d3366e50075dcb604.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/a421c5bff1ededf05d4a30c4bbcd9556.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/15664a252c20b4c1db082d28c4078076.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/00893944ae78b5e9004573ea201f9de4.png</path>
+				<width>40</width>
+				<height>40</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/b3a85e37dcfc86ce493b0f9476a6ef2b.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/ad97fdc99845055c2b83b2209e1d6454.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/9f3b65393deb47a88b70dd3168f08f7c.png</path>
+				<width>20</width>
+				<height>20</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/cd108dc25d78524ef4cfb2a39f9d4273.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=windows_defender_firewall_with_advanced_security,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Windows Defender Firewall with Advanced Security</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version></version>
+		<publisher></publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\Windows Defender Firewall with Advanced Security.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/956557925931b63dea0a77d33b737a6a.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/6e1602ea3e8a116857023f1d5e35a689.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/4bcca57d83db21e532e91008dc94b3ff.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/41c5033312c1e9c22da46985b6740ba0.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=windows_media_player,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Windows Media Player</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>12.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/67dd4fc8f0a5a4a5d0be769048e5c252.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/4336322d40ed97cb61aaa185f0f11af6.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/b6c26a9b6b2e0a97b830d4be0cfb977b.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/f53953eb65a24c7050187be38baeabeb.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/bf07cd64e9635cb8a70eeb5b101f4a5c.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/90da2f3dda2f47bb9ff31a462f2a23c8.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+			<file-extension>
+				<name>.mod</name>
+				<display-name>Movie Clip</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mka</name>
+				<display-name>MKA Audio</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.wm</name>
+				<display-name>Windows Media Audio/Video file</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mpeg</name>
+				<display-name>Movie Clip</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.asx</name>
+				<display-name>Windows Media Audio/Video playlist</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.asf</name>
+				<display-name>Windows Media Audio/Video file</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.tts</name>
+				<display-name>MPEG-2 TS Video</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mp3</name>
+				<display-name>MP3 Format Sound</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mp4</name>
+				<display-name>MP4 Video</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.wax</name>
+				<display-name>Windows Media Audio shortcut</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mp2</name>
+				<display-name>MP3 Format Sound</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.m4v</name>
+				<display-name>MP4 Video</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.wvx</name>
+				<display-name>Windows Media Audio/Video playlist</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mpg</name>
+				<display-name>Movie Clip</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mpe</name>
+				<display-name>Movie Clip</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.aiff</name>
+				<display-name>AIFF Format Sound</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.cda</name>
+				<display-name>CD Audio Track</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.3gp2</name>
+				<display-name>3GPP2 Audio/Video</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.adts</name>
+				<display-name>ADTS Audio</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.3g2</name>
+				<display-name>3GPP2 Audio/Video</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mpa</name>
+				<display-name>Movie Clip</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.aifc</name>
+				<display-name>AIFF Format Sound</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mts</name>
+				<display-name>AVCHD Video</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.ts</name>
+				<display-name>MPEG-2 TS Video</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mp2v</name>
+				<display-name>Movie Clip</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.flac</name>
+				<display-name>FLAC Audio</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mov</name>
+				<display-name>QuickTime Movie</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.m1v</name>
+				<display-name>Movie Clip</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.rmi</name>
+				<display-name>MIDI Sequence</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mpv2</name>
+				<display-name>Movie Clip</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mkv</name>
+				<display-name>MKV Video</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.aac</name>
+				<display-name>ADTS Audio</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.aif</name>
+				<display-name>AIFF Format Sound</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.wma</name>
+				<display-name>Windows Media Audio file</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mid</name>
+				<display-name>MIDI Sequence</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.wpl</name>
+				<display-name>Windows Media playlist</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.m2v</name>
+				<display-name>Movie Clip</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.adt</name>
+				<display-name>ADTS Audio</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.m2t</name>
+				<display-name>AVCHD Video</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.wmz</name>
+				<display-name>Windows Media Player Skin Package</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.wmx</name>
+				<display-name>Windows Media Audio/Video playlist</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.au</name>
+				<display-name>AU Format Sound</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.3gpp</name>
+				<display-name>3GPP Audio/Video</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.wmv</name>
+				<display-name>Windows Media Audio/Video file</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mk3d</name>
+				<display-name>MK3D Video</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.wav</name>
+				<display-name>Wave Sound</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mp4v</name>
+				<display-name>MP4 Video</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.m2ts</name>
+				<display-name>AVCHD Video</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.snd</name>
+				<display-name>AU Format Sound</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.avi</name>
+				<display-name>Video Clip</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.midi</name>
+				<display-name>MIDI Sequence</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.wmd</name>
+				<display-name>Windows Media Player Download Package</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.m3u</name>
+				<display-name>M3U file</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.wms</name>
+				<display-name>Windows Media Player Skin File</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.m4a</name>
+				<display-name>MPEG-4 Audio</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.3gp</name>
+				<display-name>3GPP Audio/Video</display-name>
+			</file-extension>
+		   
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>wmp11.assocprotocol.mms</name>
+			   <display-name></display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>wmp11.assocprotocol.dlna-playsingle</name>
+			   <display-name></display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>mms</name>
+			   <display-name>URL:MMS Protocol</display-name>
+			 </other-file-type>
+		   
+			<other-file-type>
+			   <type>URL</type>
+			   <name>dlna-playsingle</name>
+			   <display-name>URL:DLNA-PLAYSINGLE Protocol</display-name>
+			 </other-file-type>
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=windows_powershell,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Windows PowerShell</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/9a35424139fda617b1602656195473e5.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/287381f32fdf0864ac8f97713e71dea3.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/bb9ec0a934229458b5c12ac4c3ae58d6.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/29498d117ea3971010db3c3166d51f57.png</path>
+				<width>40</width>
+				<height>40</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/c023f13f33e3b6c48673d246a05c4ee4.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/a31b6413292c3b06c668ca74a2e95663.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/4ff002ea818527f967e5852136cb45a3.png</path>
+				<width>20</width>
+				<height>20</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/12f835930bfec49cc466cc77c01780aa.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+			<file-extension>
+				<name>.psc1</name>
+				<display-name>Windows PowerShell Console File</display-name>
+			</file-extension>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=windows_powershell_x86,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Windows PowerShell (x86)</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell (x86).lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/9a35424139fda617b1602656195473e5.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/287381f32fdf0864ac8f97713e71dea3.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/bb9ec0a934229458b5c12ac4c3ae58d6.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/29498d117ea3971010db3c3166d51f57.png</path>
+				<width>40</width>
+				<height>40</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/c023f13f33e3b6c48673d246a05c4ee4.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/a31b6413292c3b06c668ca74a2e95663.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/4ff002ea818527f967e5852136cb45a3.png</path>
+				<width>20</width>
+				<height>20</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/12f835930bfec49cc466cc77c01780aa.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=windows_powershell_ise,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Windows PowerShell ISE</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell ISE.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/6d0217fed8b30cf6125dda523f25b9fc.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/641283b57ab9311a6343847f07c001ef.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/c3786a6d02446fe9f8cfd0e182ed2d32.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/651858d6b241290ae578cdd863f035d1.png</path>
+				<width>40</width>
+				<height>40</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/d118f1bb0c1728259157409712d9284f.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/8c7bae916ef858cc3d8f8622dd050241.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/fe502b49b9770de8c9d29dc293669453.png</path>
+				<width>20</width>
+				<height>20</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/f3022792d0bdab253f6055eb7c05b97c.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=windows_powershell_ise_x86,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Windows PowerShell ISE (x86)</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell ISE (x86).lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/6d0217fed8b30cf6125dda523f25b9fc.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/641283b57ab9311a6343847f07c001ef.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/c3786a6d02446fe9f8cfd0e182ed2d32.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/651858d6b241290ae578cdd863f035d1.png</path>
+				<width>40</width>
+				<height>40</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/d118f1bb0c1728259157409712d9284f.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/8c7bae916ef858cc3d8f8622dd050241.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/fe502b49b9770de8c9d29dc293669453.png</path>
+				<width>20</width>
+				<height>20</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/f3022792d0bdab253f6055eb7c05b97c.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=speech_recognition,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Windows Speech Recognition</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>5.3.22514.00</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessibility\Speech Recognition.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/f4dad17788ed845a68634437a0892b4b.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/fd068dbf1d0f63451516dad4e1dd1498.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/47855568fa90dad8866386aaec0a3553.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/7b4daab80ac456420f8719884707ff7d.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=word_2016,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>Word 2016</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>16.0.4266.1001</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Word 2016.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/950d802774c1316f4658eacae8220d7b.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/2f9abf5850f2958fc4549abd3c29fd3b.png</path>
+				<width>96</width>
+				<height>96</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/909a271d4b3bf15fe6bb1505f13c122b.png</path>
+				<width>80</width>
+				<height>80</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/19cd72fc43d1f38a1fadac6ebe7b53ba.png</path>
+				<width>72</width>
+				<height>72</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/5b2d102d97fda7d3bb1c7692003e7869.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/a50ced72d4bc34d69e1033c179bb09fb.png</path>
+				<width>60</width>
+				<height>60</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/a9524bd72c5d3c0b792806d98df79725.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/b1620cf7b371d6efabfd2b96b45eb932.png</path>
+				<width>40</width>
+				<height>40</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/5a7ddc6691bcaf03da3b54e39a65e228.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/81358e38fd083e9ce8f4f7269a1fd6ea.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/405d77af792633668c89a4539a4abe48.png</path>
+				<width>20</width>
+				<height>20</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/99d87511bfe7af4c14b1a9ad82624ef4.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+			<file-extension>
+				<name>.rtf</name>
+				<display-name>Rich Text Format</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.docxml</name>
+				<display-name>Microsoft Word XML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.wbk</name>
+				<display-name>Microsoft Word Backup Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.dothtml</name>
+				<display-name>Microsoft Word HTML Template</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.htm</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.dotm</name>
+				<display-name>Microsoft Word Macro-Enabled Template</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.dochtml</name>
+				<display-name>Microsoft Word HTML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.odt</name>
+				<display-name>OpenDocument Text</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.dotx</name>
+				<display-name>Microsoft Word Template</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.dot</name>
+				<display-name>Microsoft Word 97 - 2003 Template</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.docm</name>
+				<display-name>Microsoft Word Macro-Enabled Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.docx</name>
+				<display-name>Microsoft Word Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.doc</name>
+				<display-name>Microsoft Word 97 - 2003 Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.mht</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xml</name>
+				<display-name></display-name>
+			</file-extension>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=wordpad,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>WordPad</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Wordpad.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/f8288d47084f6b462162a6a5009c8ed8.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/fe45d11df283cadad61eba56bfc3add7.png</path>
+				<width>64</width>
+				<height>64</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/b5c8c1e3c3ef96af9d3a4500f98f1006.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/63108defac073037725ddece465149f6.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/0686d1ac7afb6c406c2cfacd9d2fa7f0.png</path>
+				<width>24</width>
+				<height>24</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/c661fbf3a46a34b3150ec9e16ed1b282.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+			<file-extension>
+				<name>.rtf</name>
+				<display-name>Rich Text Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.docx</name>
+				<display-name>Office Open XML Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.txt</name>
+				<display-name>Text Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.odt</name>
+				<display-name>OpenDocument Text</display-name>
+			</file-extension>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+	<application>
+		<id>cn=xps_viewer,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+		<name>XPS Viewer</name>
+		<type>remote</type>
+		<origin-id>9e1250c1c5efcf09f7e052f3fb8d5302</origin-id>
+		<version>10.0.17763.1</version>
+		<publisher>Microsoft Corporation</publisher>
+		<launch-path>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\XPS Viewer.lnk</launch-path>
+		<icons>
+			<icon>
+				<path>/broker/resources/icon/97807bfbc45fc1ef5e158dc6640284d3.png</path>
+				<width>256</width>
+				<height>256</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/a7e78894378adae4813d38ed082764cb.png</path>
+				<width>48</width>
+				<height>48</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/c85a0028a10d2cb1f8cd4ec4a708641b.png</path>
+				<width>32</width>
+				<height>32</height>
+			</icon>
+			<icon>
+				<path>/broker/resources/icon/a78e06258e895627eebba1f7711a7881.png</path>
+				<width>16</width>
+				<height>16</height>
+			</icon>
+		</icons>
+		<registered-file-types>
+		   
+			<file-extension>
+				<name>.dwfx</name>
+				<display-name>XPS Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.oxps</name>
+				<display-name>XPS Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.jtx</name>
+				<display-name>XPS Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.easmx</name>
+				<display-name>XPS Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.xps</name>
+				<display-name>XPS Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.edrwx</name>
+				<display-name>XPS Document</display-name>
+			</file-extension>
+		   
+			<file-extension>
+				<name>.eprtx</name>
+				<display-name>XPS Document</display-name>
+			</file-extension>
+		   
+		   
+		</registered-file-types>
+		<protocol-match>true</protocol-match>
+		<protocols>
+			<protocol>
+				<name>BLAST</name>
+				<is-default>true</is-default>
+			</protocol>
+		</protocols>
+		
+		
+		<multi-session-mode>DISABLED</multi-session-mode>
+	</application>
+</applications>
+
+
+<application-sessions>
+</application-sessions>
+
+
+<shadow-sessions>
+</shadow-sessions>
+
+	
+	
+	
+	</launch-items>

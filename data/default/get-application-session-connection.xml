@@ -1,0 +1,38 @@
+<application-session-connection>
+	
+		<result>ok</result>
+		
+
+<id>PCOIPLAB\jinxingh(cn=s-1-5-21-1362534460-4284534576-2330898158-1103,cn=foreignsecurityprincipals,dc=vdi,dc=vmware,dc=int)/7@cn=8ff1d29e-eb1f-4ca1-a117-0e41fcd922a2,ou=servers,dc=vdi,dc=vmware,dc=int.cn=rds2019,ou=server groups,dc=vdi,dc=vmware,dc=int:BLAST:0:APPLICATION</id>
+<action-id>f1b26788-e0b8-428b-af4a-b2671fd59ff5</action-id>
+<enable-timing-profiler>false</enable-timing-profiler>
+
+<logoff-after-disconnect-minutes>0</logoff-after-disconnect-minutes>
+<session-id>PCOIPLAB\jinxingh(cn=s-1-5-21-1362534460-4284534576-2330898158-1103,cn=foreignsecurityprincipals,dc=vdi,dc=vmware,dc=int)/56e12c07-6b02-4d84-9a82-89dcbe4e75f9@cn=8ff1d29e-eb1f-4ca1-a117-0e41fcd922a2,ou=servers,dc=vdi,dc=vmware,dc=int.cn=rds2019,ou=server groups,dc=vdi,dc=vmware,dc=int:APPLICATION</session-id>
+<new-connection-needed>true</new-connection-needed>
+
+	<address>10.117.161.109</address>
+	<port>8443</port>
+	<additional-listeners>
+		<additional-listener name="FRAMEWORKCHANNEL">10.117.163.9:32111</additional-listener>
+		<additional-listener name="VDPSERVICECHANNEL">10.117.163.9:9427</additional-listener>
+	</additional-listeners>
+	<framework-channel-ticket>6d18fdb7-c375-4d2e-a6cb-5e5cbb6733b2</framework-channel-ticket>
+	
+		<framework-channel-certificate-thumbprint>a8:8f:95:af:dd:fb:72:2f:8d:0f:31:ab:67:77:c9:89:f1:33:dd:0e</framework-channel-certificate-thumbprint>
+		<framework-channel-certificate-thumbprint-algorithm>SHA-1</framework-channel-certificate-thumbprint-algorithm>
+	
+	<protocol>BLAST</protocol>
+	<user-name>jinxingh</user-name>
+	<password>Mjk0OWRmMWYt</password>
+	<domain-name>PCOIPLAB</domain-name>
+	
+	<enable-usb>true</enable-usb>
+	<enable-usb-virtual-channel>false</enable-usb-virtual-channel>
+	<enable-mmr>false</enable-mmr>
+	
+		<protocol-settings>
+			<token>{&#034;a&#034;:&#034;xR02qilL0OZoiry2p7R0c13cf45hBSPDt440sMDd&#034;,&#034;r&#034;:&#034;834783CC-FABD-41DF-BE27-7D1DB876E51A&#034;,&#034;thumbprint&#034;:&#034;B0 90 D7 D8 8A 48 E8 E4 CE 1C B2 C6 FD 7C E5 8A C7 88 E7 90&#034;,&#034;thumbprint256&#034;:&#034;83 A2 25 BD D5 77 D9 D8 01 22 14 58 50 C6 1B C2 3F 05 D7 77 C3 BC 3D B1 AC D5 E1 63 34 15 F0 7C&#034;}</token>
+		</protocol-settings>
+	</application-session-connection>
+	
