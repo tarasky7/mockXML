@@ -9,7 +9,8 @@ def tail():
 def common_handler(id, key, req):
    reply = ''
    file_dir = os.path.dirname(os.path.realpath('__file__'))
-   expected_file = file_dir + '/data/' + id + '/' + key + '.xml'
+   # expected_file = file_dir + '/data/' + id + '/' + key + '.xml'
+   expected_file = file_dir + '/data/default/' + '/' + key + '.' + id + '.xml'
    default_file = file_dir + '/data/default/' + key + '.xml'
    exist = os.path.isfile(expected_file)
    if exist:
@@ -50,7 +51,4 @@ def set_user_global_preferences(id, key, req):
    return common_handler(id, key, req)
 
 def get_authentication_status(id, key, req):
-   return common_handler(id, key, req)
-
-def set_user_global_preferences(id, key, req):
    return common_handler(id, key, req)

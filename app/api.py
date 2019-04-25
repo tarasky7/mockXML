@@ -11,6 +11,7 @@ def xml_message_handler():
    xml_message = request.get_data()
    if 'TestCase' in request.cookies.keys():
       test_case = request.cookies['TestCase']
+      print test_case
    response = xml_handler.header()
    xml_dict = xmltodict.parse(xml_message)['broker']
    for key in xml_dict:
