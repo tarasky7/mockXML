@@ -9,8 +9,8 @@ def tail():
 def common_handler(id, key, req):
    reply = ''
    file_dir = os.path.dirname(os.path.realpath('__file__'))
-   # expected_file = file_dir + '/data/' + id + '/' + key + '.xml'
-   expected_file = file_dir + '/data/default/' + '/' + key + '.' + id + '.xml'
+   id_list = id.split('-')
+   expected_file = file_dir + '/data/' + id_list[0] + '/' + key + '.' + id_list[1] + '.xml'
    default_file = file_dir + '/data/default/' + key + '.xml'
    exist = os.path.isfile(expected_file)
    if exist:
