@@ -1,0 +1,22 @@
+<submit-authentication>
+   <result>partial</result>
+   <authentication>
+      <screen>
+         <name>windows-password</name>
+         <params>
+               <param>
+                  <name>error</name>
+                  <values><value>Unknown user name or bad password.</value></values>
+               </param>
+                  <param>
+                     <name>username</name>
+                     <values><value>a</value></values>
+                  </param>
+               <param>
+                  <name>domain</name>
+                  <values><value>*DefaultDomain*</value></values>
+               </param>
+         </params>
+      </screen>
+   </authentication>
+</submit-authentication>
