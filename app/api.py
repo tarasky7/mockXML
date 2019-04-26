@@ -5,7 +5,7 @@ import xmltodict
 
 @app.route('/broker/xml', methods = ['POST'])
 def xml_message_handler():
-   test_case = '0'
+   test_case = '0-0'
    if not request.is_xhr:
       print "mockxml only accept XHR request"
    xml_message = request.get_data()
