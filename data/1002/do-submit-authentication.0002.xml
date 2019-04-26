@@ -1,0 +1,6 @@
+<submit-authentication>
+   <result>error</result>
+   <error-code>AUTHENTICATION_FAILED</error-code>
+   <error-message>Authentication failure</error-message>
+   <user-message>Maximum login attempts exceeded.</user-message>
+</submit-authentication>
