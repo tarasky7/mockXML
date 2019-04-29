@@ -1,0 +1,45 @@
+<configuration>
+    <result>ok</result>
+    <client-configuration>
+	<params>	
+		<param>
+			<name>BioMetricsTimeout</name>
+			<values>	
+				<value>-1</value>
+			</values>
+		</param>
+		<param>
+			<name>clientHideDomainList</name>
+			<values>
+				<value>true</value>
+			</values>
+		</param>
+		<param>
+			<name>alwaysSendRdsLicense</name>
+			<values>
+				<value>true</value>
+			</values>
+		</param>
+	</params>
+    </client-configuration>
+    <authentication>
+    <screen>
+        <name>securid-passcode</name>
+        <params>
+            <param>
+            <name>auth-label</name>
+            <values>
+            <value>Duo login</value>
+            </values>
+            </param>
+            <param>
+            <name>auth-type</name>
+            <values>
+            <value>RADIUS</value>
+            </values>
+            </param>
+        </params>
+    </screen>
+</authentication>
+<broker-guid>0a9f90d7-d42c-40c5-95e3-14175c7cda32</broker-guid>
+</configuration>
