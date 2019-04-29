@@ -1,0 +1,19 @@
+<submit-authentication>
+	<result>partial</result>
+    <authentication>
+        <screen>
+            <name>windows-password-expired</name>
+            <params>
+				<param>
+					<name>error</name>
+					<values><value>Your password must be changed before logging on.</value></values>
+				</param>
+				<param>
+					<name>username</name>
+					<readonly/>
+					<values><value>pcoip11</value></values>
+				</param>
+            </params>
+        </screen>
+    </authentication>
+</submit-authentication>
