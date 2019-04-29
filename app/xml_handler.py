@@ -11,9 +11,8 @@ def common_handler(id, key, req, step = ''):
    file_dir = os.path.dirname(os.path.realpath('__file__'))
    default_file = file_dir + '/data/default/' + key + '.xml'
    expected_file = file_dir + '/data/' + id + '/' + key  + '.xml'
-   if (step != '') {
+   if (step != ''):
       expected_file = file_dir + '/data/' + id + '/' + key  + '.' + step + '.xml'
-   }
 
    exist = os.path.isfile(expected_file)
    if exist:
