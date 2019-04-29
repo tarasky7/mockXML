@@ -6,7 +6,7 @@
 		   <param>
 			   <name>clientHideDomainList</name>
 			   <values>
-				   <value>false</value>
+				   <value>true</value>
 			   </values>
 		   </param>
 		   <param>

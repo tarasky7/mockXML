@@ -6,12 +6,15 @@ def header():
 def tail():
    return '</broker>'
 
-def common_handler(id, key, req):
+def common_handler(id, key, req, step = ''):
    reply = ''
    file_dir = os.path.dirname(os.path.realpath('__file__'))
-   id_list = id.split('-')
-   expected_file = file_dir + '/data/' + id_list[0] + '/' + key + '.' + id_list[1] + '.xml'
    default_file = file_dir + '/data/default/' + key + '.xml'
+   expected_file = file_dir + '/data/' + id + '/' + key  + '.xml'
+   if (step != '') {
+      expected_file = file_dir + '/data/' + id + '/' + key  + '.' + step + '.xml'
+   }
+
    exist = os.path.isfile(expected_file)
    if exist:
       with open(expected_file) as f:
@@ -21,34 +24,7 @@ def common_handler(id, key, req):
          reply = f.read()
    return reply
 
-def set_locale(id, key, req):
-   return common_handler(id, key, req)
-
-def get_configuration(id, key, req):
-   return common_handler(id, key, req)
-
-def do_submit_authentication(id, key, req):
-   return common_handler(id, key, req)
-
-def add_client_info(id, key, req):
-   return common_handler(id, key, req)
-
-def get_application_session_connection(id, key, req):
-   return common_handler(id, key, req)
-def get_launch_items(id, key, req):
-   return common_handler(id, key, req)
-
-def get_tunnel_connection(id, key, req):
-   return common_handler(id, key, req)
-
-def get_user_global_preferences(id, key, req):
-   return common_handler(id, key, req)
-
-def set_last_user_activity(id, key, req):
-   return common_handler(id, key, req)
-
-def set_user_global_preferences(id, key, req):
-   return common_handler(id, key, req)
-
-def get_authentication_status(id, key, req):
-   return common_handler(id, key, req)
+# TODO:
+# if needed later
+# def set_locale(id, key, req, step):
+#   return common_handler(id, key, req, step)
