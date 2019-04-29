@@ -1,0 +1,22 @@
+<submit-authentication>
+<result>partial</result>
+<authentication>
+<screen>
+<name>securid-nexttokencode</name>
+<params>
+<param>
+<name>auth-challenge-string</name>
+<values>
+<value>Please enroll at https://api-d987d56d.duosecurity.com/portal?code=fdf6c930fd9cfb74&amp;akey=DA0V9XJXLZI2OVKGZIWO</value>
+</values>
+</param>
+<param>
+<name>auth-type</name>
+<values>
+<value>RADIUS</value>
+</values>
+</param>
+</params>
+</screen>
+</authentication>
+</submit-authentication>
