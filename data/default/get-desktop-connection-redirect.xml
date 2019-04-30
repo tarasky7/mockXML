@@ -1,4 +1,4 @@
-<desktop-connection>
+<desktop-connection-redirect>
    <result>ok</result>
    <id>cn=rdsh-2016,ou=applications,dc=vdi,dc=vmware,dc=int</id>
    <action-id>d628c5c7-d962-4a7f-9f00-e9815092b61e</action-id>
@@ -23,4 +23,4 @@
    <protocol-settings>
    <token>[REDACTED]</token>
    </protocol-settings>
-</desktop-connection>
+</desktop-connection-redirect>
