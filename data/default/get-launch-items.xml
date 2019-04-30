@@ -1,6 +1,33 @@
 	<launch-items>	
 		<result>ok</result>
 <desktops>
+   <desktop>
+      <id>cn=rdsh-2016,ou=applications,dc=vdi,dc=vmware,dc=int</id>
+      <name>RDSH-2016</name>
+      <type>free-unmanaged-wts</type>
+      <state>disconnected</state>
+      <session-id>VIEW\u1(cn=s-1-5-21-1415901052-2347053213-661990643-1105,cn=foreignsecurityprincipals,dc=vdi,dc=vmware,dc=int)/4@cn=76803412-b812-4812-adf4-31326f942908,ou=servers,dc=vdi,dc=vmware,dc=int.cn=rdsh-2016,ou=server groups,dc=vdi,dc=vmware,dc=int:BLAST:0:DESKTOP</session-id>
+      <in-maintenance-mode>false</in-maintenance-mode>
+      <reset-allowed>false</reset-allowed>
+      <reset-allowed-on-session>false</reset-allowed-on-session>
+      <protocol-match>true</protocol-match>
+      <protocols>
+         <protocol>
+         <name>BLAST</name>
+         <is-default>true</is-default>
+         </protocol>
+         <protocol>
+         <name>RDP</name>
+         </protocol>
+         <protocol>
+         <name>PCOIP</name>
+         </protocol>
+      </protocols>
+      <user-preferences>
+         <preference name="screenSize">WindowSmall</preference>
+         <preference name="protocol">BLAST</preference>
+      </user-preferences>
+   </desktop>
 	<desktop>
 		<id>cn=win2019,ou=applications,dc=vdi,dc=vmware,dc=int</id>
 		<name>win2019</name>
