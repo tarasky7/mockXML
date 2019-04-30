@@ -1,0 +1,4 @@
+<tunnel-connection-redirect>
+	<result>ok</result>
+	<bypass-tunnel>true</bypass-tunnel>
+</tunnel-connection-redirect>
