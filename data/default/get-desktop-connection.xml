@@ -1,26 +1,7 @@
 <desktop-connection>
    <result>ok</result>
-   <id>cn=rdsh-2016,ou=applications,dc=vdi,dc=vmware,dc=int</id>
-   <action-id>d628c5c7-d962-4a7f-9f00-e9815092b61e</action-id>
-   <enable-timing-profiler>false</enable-timing-profiler>
-   <address>10.117.172.126</address>
-   <port>8443</port>
-   <additional-listeners>
-   <additional-listener name="FRAMEWORKCHANNEL">127.0.0.1:65030</additional-listener>
-   <additional-listener name="VDPSERVICECHANNEL">127.0.0.1:65031</additional-listener>
-   </additional-listeners>
-   <framework-channel-ticket>[REDACTED]</framework-channel-ticket>
-   <framework-channel-certificate-thumbprint>e3:ff:90:ae:e1:41:f7:1e:7c:c5:50:53:9d:9c:fe:e8:72:9a:86:d0:25:38:6f:05:d9:51:67:4b:ae:ec:05:79</framework-channel-certificate-thumbprint>
-   <framework-channel-certificate-thumbprint-algorithm>SHA-256</framework-channel-certificate-thumbprint-algorithm>
-   <protocol>BLAST</protocol>
-   <user-name>u1@view.bc</user-name>
-   <password>[REDACTED]</password>
-   <domain-name>VIEW</domain-name>
-   <enable-usb>true</enable-usb>
-   <enable-usb-virtual-channel>false</enable-usb-virtual-channel>
-   <logoff-after-disconnect-minutes>0</logoff-after-disconnect-minutes>
-   <enable-mmr>false</enable-mmr>
-   <protocol-settings>
-   <token>[REDACTED]</token>
-   </protocol-settings>
+   <protocol-redirect-settings>
+      <url>https://10.117.172.126</url>
+      <jwt-at>XXXXXXXXXXXXXXXXXXXXXXX</jwt-at>
+   </protocol-redirect-settings>
 </desktop-connection>
