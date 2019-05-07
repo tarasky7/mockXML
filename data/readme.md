@@ -1,4 +1,8 @@
 ## List of Test Cases
+- 1000: Public Page
+   - 1000-0001 - when browse homepage should see the default page
+   - 1000-0002 - click the access area should access to login page
+   - 1000-0003 - Verify pre-login dialog box can be shown as expected
 - 1002: DomainList
    - 1002-0001 - domainList is invisible when clientHideDomainList = true [(XML)](https://confluence.eng.vmware.com/pages/viewpage.action?spaceKey=HorizonArchitecture&title=Internal+XML+API+Documentation#InternalXMLAPIDocumentation-Response(Windowspasswordauthenticationisrequired))
 - 1003: Authentication
@@ -11,3 +15,11 @@
    - 1003-0005 - Verify authentication with policy that password must change at first logon. [(XML)](https://confluence.eng.vmware.com/pages/viewpage.action?spaceKey=HorizonArchitecture&title=Internal+XML+API+Documentation#InternalXMLAPIDocumentation-Response(newpasswordnotaccepted,tryagain))
    - 1003-0006 - RADIUS SecurID 2-Factor Authentication is shown. ([XML-1](https://confluence.eng.vmware.com/pages/viewpage.action?spaceKey=HorizonArchitecture&title=Internal+XML+API+Documentation#InternalXMLAPIDocumentation-Response(RequirenextSecurIDtokencode)) [XML-2](https://confluence.eng.vmware.com/pages/viewpage.action?spaceKey=HorizonArchitecture&title=Internal+XML+API+Documentation#InternalXMLAPIDocumentation-Response(SecurIDauthenticationisrequired)))
    - 1003-0007 - RADIUS SecurID 2-Factor Authentication failed with unkown user
+- 1004 Launch Page
+   - 1004-0001 - This page is a launch page after login
+   - 1004-0002 - The setting panel is clickable and closable
+   - 1004-0003 - The help panel is clickable and closable
+   - 1004-0004 - Logout works well ([XML](https://confluence.eng.vmware.com/display/HorizonArchitecture/Internal+XML+API+Documentation#InternalXMLAPIDocumentation-DoLogout))
+   - 1004-0005 - The logout option can be canceled
+   - 1004-0006 - The search bar is available and no item is present when type in strange word
+   - 1004-0007 - The search bar works well when type in available name
