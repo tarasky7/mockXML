@@ -1,6 +1,11 @@
 ## List of Test Cases
-- 1002-0001 - domainList is invisible when clientHideDomainList = true
-- 1003-0002 - user login with wrong credentials, should stay on login page and see error msg
+- 1002-0001 - domainList is invisible when clientHideDomainList = true [(XML)](https://confluence.eng.vmware.com/pages/viewpage.action?spaceKey=HorizonArchitecture&title=Internal+XML+API+Documentation#InternalXMLAPIDocumentation-Response(Windowspasswordauthenticationisrequired))
+- 1003-0001 - page is login page
+- 1003-0002 - user login with wrong credentials, should stay on login page and see error msg [(XML)](https://confluence.eng.vmware.com/pages/viewpage.action?spaceKey=HorizonArchitecture&title=Internal+XML+API+Documentation#InternalXMLAPIDocumentation-Response(Passwordauthenticationfailed,allowanotherattempt))
+- 1003-0003 - user login successfully, should go to the launch page
 - 1003-0004 - user login failures reach 3 times, should pop up error
- - 0001 - normal fail page
- - 0002 - maximum login attempts exceeded
+ - 0001 - normal fail page [(XML)](https://confluence.eng.vmware.com/pages/viewpage.action?spaceKey=HorizonArchitecture&title=Internal+XML+API+Documentation#InternalXMLAPIDocumentation-Response(Passwordauthenticationfailed,allowanotherattempt))
+ - 0002 - maximum login attempts exceeded [(XML)](https://confluence.eng.vmware.com/pages/viewpage.action?spaceKey=HorizonArchitecture&title=Internal+XML+API+Documentation#InternalXMLAPIDocumentation-Response(toomanyattempts))
+- 1003-0005 - Verify authentication with policy that password must change at first logon. [(XML)](https://confluence.eng.vmware.com/pages/viewpage.action?spaceKey=HorizonArchitecture&title=Internal+XML+API+Documentation#InternalXMLAPIDocumentation-Response(newpasswordnotaccepted,tryagain))
+- 1003-0006 - RADIUS SecurID 2-Factor Authentication is shown. ([XML-1](https://confluence.eng.vmware.com/pages/viewpage.action?spaceKey=HorizonArchitecture&title=Internal+XML+API+Documentation#InternalXMLAPIDocumentation-Response(RequirenextSecurIDtokencode)) [XML-2](https://confluence.eng.vmware.com/pages/viewpage.action?spaceKey=HorizonArchitecture&title=Internal+XML+API+Documentation#InternalXMLAPIDocumentation-Response(SecurIDauthenticationisrequired)))
+- 1003-0007 - RADIUS SecurID 2-Factor Authentication failed with unkown user
