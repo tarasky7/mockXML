@@ -1,0 +1,6 @@
+<configuration>
+   <result>error</result>
+   <error-code>ALREADY_AUTHENTICATED</error-code>
+   <error-message>already authenticated</error-message>
+   <user-message></user-message>
+</configuration>
