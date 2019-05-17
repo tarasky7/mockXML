@@ -25,7 +25,7 @@ def xml_message_handler():
          continue
       print 'receive ' + key + ' message from client'
       if 'TestFunc' in request.cookies.keys():  # use preset function rather than common_handler.
-         response += getattr(xml_handler, request.cookeis['TestFunc'])()
+         response += getattr(xml_handler, request.cookeis['TestFunc'])(test_case, key, xml_dict[key], test_step, request.cookies['TestValue'])
       else:
          response += xml_handler.common_handler(test_case, key, xml_dict[key], test_step)
       #TODO: if needed

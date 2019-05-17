@@ -8,3 +8,4 @@ Details can be found [here](https://confluence.eng.vmware.com/pages/viewpage.act
 - TestCase: denotes which test case to run.
 - TestStep: if one case has several steps, this cookie will decide which step to run.
 - TestFunc: if one case need to modify the xml files(for example, set the idle time in do-submit-authentication.xml), this cookie will tell the application which function to run.
+- TestValue: corresponds with TestFunc, determines the value we want to set in a specific function.
