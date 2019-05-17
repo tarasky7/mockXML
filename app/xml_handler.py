@@ -28,13 +28,22 @@ def common_handler(id, key, req, step = ''):
 # def set_locale(id, key, req, step):
 #   return common_handler(id, key, req, step)
 
-def set_idle_time(id, key, req, step, idle_time):
+def set_idle_time(id, key, req, step, sub_str):
+   # <idle-timeout> is in file do-submit-authentication.xml
    reply = common_handler(id, key, req, step)
    begin = r'<idle-timeout>'
    end = r'</idle-timeout>'
-   reply = sub_pattern_xml(reply, begin, end, idle_time)
+   reply = sub_pattern_xml(reply, begin, end, sub_str)
    if __name__ == '__main__':
       print reply
+   return reply
+
+def set_user_activity_interval(id, key, req, step, sub_str):
+   # <user-activity-interval> is in file do-submit-authentication.xml
+   reply = common_handler(id, key, req, step)
+   begin = r'<user-activity-interval>'
+   end = r'</user-activity-interval>'
+   reply = sub_pattern_xml(reply, begin, end, sub_str)
    return reply
    
 def sub_pattern_xml(reply, begin, end, sub_str):
