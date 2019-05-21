@@ -1,0 +1,60 @@
+<submit-authentication>
+	
+	
+		<result>partial</result>
+		
+
+
+
+<authentication>
+
+
+
+
+
+
+
+
+
+
+
+
+	<screen>
+
+	
+	
+	
+
+		<name>securid-nexttokencode</name>
+		<params>
+			<param>
+				<name>auth-type</name>
+				<values><value>RADIUS</value></values>
+			</param>
+			<param>
+				<name>auth-subtype</name>
+				<values><value></value></values>
+			</param>
+			<param>
+				<name>auth-label</name>
+				<values><value>VASCO BJ</value></values>
+			</param>
+			<param>
+				<name>auth-challenge-string</name>
+				<values><value>Enter One-Time Password</value></values>
+			</param>
+		</params>
+
+	
+
+	</screen>
+</authentication>
+
+
+
+
+
+
+	
+	
+	</submit-authentication>

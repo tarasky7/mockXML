@@ -1,0 +1,77 @@
+<!-- authenticastion for wrong pin code. -->
+<submit-authentication>
+	
+	
+		<result>partial</result>
+		
+
+
+
+<authentication>
+
+
+
+
+
+
+
+
+
+
+
+
+	<screen>
+
+	
+	
+
+		<name>securid-passcode</name>
+
+		<params>
+			<param>
+				<name>error</name>
+				<values><value>Access Denied</value></values>
+			</param>
+
+		
+			
+			
+
+			
+			<param>
+				<name>username</name>
+				<values><value>otpuser</value></values>
+			</param>
+			
+			
+		
+
+			<param>
+				<name>auth-type</name>
+				<values><value>RADIUS</value></values>
+			</param>
+			<param>
+				<name>auth-subtype</name>
+				<values><value></value></values>
+			</param>
+			<param>
+				<name>auth-label</name>
+				<values><value>VASCO BJ</value></values>
+			</param>
+
+		</params>
+
+	
+	
+
+	</screen>
+</authentication>
+
+
+
+
+
+
+	
+	
+	</submit-authentication>

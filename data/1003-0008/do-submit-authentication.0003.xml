@@ -1,0 +1,76 @@
+<submit-authentication>
+	
+	
+		<result>partial</result>
+		
+
+
+
+<authentication>
+
+	<screen>
+
+	
+		
+		
+
+		<name>windows-password</name>
+		<params>
+
+			
+
+			
+			
+			
+				
+			
+			
+
+			
+			
+			
+			
+			<param>
+				<name>domain</name>
+				<values>
+					
+						<value>pivdemo.org</value>
+					
+						<value>DAYREP</value>
+					
+						<value>upn.example.com</value>
+					
+						<value>VIEW</value>
+					
+						<value>CART</value>
+					
+						<value>MOBILE</value>
+					
+				</values>
+			</param>
+			
+			
+
+			
+				<param>
+					<name>clientCredentialCacheTimeout</name>
+					<values><value>-1</value></values>
+				</param>
+			
+
+		</params>
+
+		
+		
+
+	</screen>
+</authentication>
+
+
+
+
+
+
+	
+	
+	</submit-authentication>

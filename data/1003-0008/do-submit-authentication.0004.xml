@@ -1,0 +1,30 @@
+<submit-authentication>
+	
+		<result>ok</result>
+		
+
+
+
+
+
+
+
+<user-sid>S-1-5-21-1560121180-3648685651-4198583931-12267</user-sid>
+
+
+<offline-sso-disabled>false</offline-sso-disabled>
+<offline-sso-cache-timeout>0</offline-sso-cache-timeout>
+<logout-on-host-suspend-enabled>true</logout-on-host-suspend-enabled>
+
+
+
+<user-activity-interval>24000</user-activity-interval>
+<idle-timeout>-1</idle-timeout>
+<max-broker-session-time>-1</max-broker-session-time>
+
+
+
+	
+	
+	
+	</submit-authentication>

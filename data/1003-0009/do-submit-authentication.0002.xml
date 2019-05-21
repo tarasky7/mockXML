@@ -1,0 +1,70 @@
+<!-- authentication for wrong VASCO user info -->
+<submit-authentication>
+	
+	
+		<result>partial</result>
+		
+
+
+
+<authentication>
+
+
+
+
+
+
+
+
+
+
+
+
+	<screen>
+
+	
+		<name>securid-passcode</name>
+		<params>
+
+		
+			<param> <name>message</name>
+				<values><value>Incorrect authentication type requested.</value></values>
+			</param>
+		
+
+		
+			
+			
+
+				
+			
+		
+
+			<param>
+				<name>auth-type</name>
+				<values><value>RADIUS</value></values>
+			</param>
+			<param>
+				<name>auth-subtype</name>
+				<values><value></value></values>
+			</param>
+			<param>
+				<name>auth-label</name>
+				<values><value>VASCO BJ</value></values>
+			</param>
+		</params>
+	
+	
+	
+
+	</screen>
+</authentication>
+
+
+
+
+
+
+	
+	
+	</submit-authentication>
