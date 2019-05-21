@@ -1,0 +1,22 @@
+<user-global-preferences>
+	
+		<result>ok</result>
+		
+
+		<user-preferences>
+			<preference name="lastUsedDesktop">cn=rds2012r2dc,ou=applications,dc=vdi,dc=vmware,dc=int</preference>
+			<preference name="globalPreferredProtocol">PCOIP</preference>
+			<preference name="enableHighResolution">false</preference>
+			<preference name="enableFolderSharing">true</preference>
+			<preference name="timezoneSync"></preference>
+			<preference name="enableMultiMonitor">true</preference>
+			<preference name="enableMP4">false</preference>
+			<preference name="enableClipboardPopupGuide">false</preference>
+			<preference name="enableFitToViewer">true</preference>
+			<preference name="enableWindowsKey">false</preference>
+			<preference name="useMacOSXKeyMappings"></preference>
+		</user-preferences>
+	
+	
+	
+	</user-global-preferences>
