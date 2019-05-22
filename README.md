@@ -7,5 +7,6 @@ Details can be found [here](https://confluence.eng.vmware.com/pages/viewpage.act
 ## Cookies
 - TestCase: denotes which test case to run.
 - TestStep: if one case has several steps, this cookie will decide which step to run.
+- EditXML: if one case need to modify xml file, this cookie will specify which file to change.
 - TestFunc: if one case need to modify the xml files(for example, set the idle time in do-submit-authentication.xml), this cookie will tell the application which function to run.
 - TestValue: corresponds with TestFunc, determines the value we want to set in a specific function.
