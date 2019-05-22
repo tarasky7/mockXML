@@ -15,6 +15,7 @@
    - 1003-0005 - Verify authentication with policy that password must change at first logon. [(XML)](https://confluence.eng.vmware.com/pages/viewpage.action?spaceKey=HorizonArchitecture&title=Internal+XML+API+Documentation#InternalXMLAPIDocumentation-Response(newpasswordnotaccepted,tryagain))
    - 1003-0006 - RADIUS SecurID 2-Factor Authentication is shown. ([XML-1](https://confluence.eng.vmware.com/pages/viewpage.action?spaceKey=HorizonArchitecture&title=Internal+XML+API+Documentation#InternalXMLAPIDocumentation-Response(RequirenextSecurIDtokencode)) [XML-2](https://confluence.eng.vmware.com/pages/viewpage.action?spaceKey=HorizonArchitecture&title=Internal+XML+API+Documentation#InternalXMLAPIDocumentation-Response(SecurIDauthenticationisrequired)))
    - 1003-0007 - RADIUS SecurID 2-Factor Authentication failed with unkown user
+   - 1003-0008 - Verify that launching desktop through RSA secure id with user-generated PIN successfully.
 - 1004 Launch Page
    - 1004-0001 - This page is a launch page after login
    - 1004-0002 - The setting panel is clickable and closable
