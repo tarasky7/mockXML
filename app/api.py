@@ -24,9 +24,9 @@ def xml_message_handler():
       if key == '@version':
          continue
       print 'receive ' + key + ' message from client'
-      if 'EditXML' in request.cookies.keys() and key == requsest.cookies['EditXML']:  # use preset function rather than common_handler.
+      if 'EditXML' in request.cookies.keys() and key == request.cookies['EditXML']:  # use preset function rather than common_handler.
          response += getattr(xml_handler, request.cookies['TestFunc'])(test_case, key, xml_dict[key], test_step, request.cookies['TestValue'])
-         print reqeust.cookies['TestValue']
+         print request.cookies['EditXML']
       else:
          response += xml_handler.common_handler(test_case, key, xml_dict[key], test_step)
       #TODO: if needed
