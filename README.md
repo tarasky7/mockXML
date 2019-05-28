@@ -10,3 +10,9 @@ Details can be found [here](https://confluence.eng.vmware.com/pages/viewpage.act
 - EditXML: if one case need to modify xml file, this cookie will specify which file to change.
 - TestFunc: if one case need to modify the xml files(for example, set the idle time in do-submit-authentication.xml), this cookie will tell the application which function to run.
 - TestValue: corresponds with TestFunc, determines the value we want to set in a specific function.
+
+## Resources
+- [ProtractorTemp](https://gitlab.eng.vmware.com/horizonweb/protractortemp)
+- [Mockxml](https://confluence.eng.vmware.com/display/~jinxingh/Mockxml)
+- [Internal XML API Documentation](https://confluence.eng.vmware.com/pages/viewpage.action?spaceKey=HorizonArchitecture&title=Internal+XML+API+Documentation)
+- [HTML5 client automation](https://confluence.eng.vmware.com/display/CNVDES/HTML5+client+automation)
